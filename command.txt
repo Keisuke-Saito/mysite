@@ -1,0 +1,19 @@
+pwd
+mkdir test
+cd test
+touch a.txt
+cat a.txt 
+cp a.txt c.txt
+mv c.txt b.txt
+mkdir sub1
+mv b.txt sub1
+cd sub1/
+rm b.txt 
+cd ..
+mkdir sub2
+cp -r sub1-1
+cp -r sub1 sub1-1
+mv sub1-1 sub2
+rm -r sub1 sub2
+history
+history -w command.txt
